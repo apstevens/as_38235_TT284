@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OU Walking Club</title>
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="q2a.css">
     </head>
     <body>
-        <header>
-            <img>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Events</li>
-                    <li>News</li>
-                    <li>Join</li>
-                </ul>
-            </nav>
-        </header>
-        <Section>
-            <h1>Walk Events</h1>
-            <fieldset>
-                <form action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
-                    <input type="hidden" name="sessionID" value="abcd1234-ee56-ff78-9090">
-                    <label>Walk name:</label>
-                    <input type="text">
-                    <label>Date of walk:</label>
-                    <input type="date">
-                    <label>Start time:</label>
-                    <input type="time">
-                    <label>End time:</label>
-                    <input type="time">
-                    <label>Meeting point:</label>
-                    <input type="text">
-                    <label>Distance in kilometres:</label>
-                    <input type="text">
-                    <label>Walk leader:</label>
-                    <input type="text">
-                    <label>Comments:</label>
-                    <textarea></textarea>
-                    <label>Status:</label>
-                    <label>Approved</label>
-                    <select>
-                        <option>Proposed</option>
-                        <option>Approved</option>
-                        <option>Rejected</option>
-                    </select>
-                    <input type="submit">
-                    <input type="reset">
-                </form>
-            </fieldset>
-        </Section>
-        <footer>
-
-        </footer>
+            <header class="main-header">
+                <div class="container">
+                    <h2 class="mh-logo">
+                        <img src="ou_logo.jpg" width="170" height="95" alt="Open University Logo">
+                    </h2>
+                    <nav class="main-nav">
+                        <ul class="main-nav-list">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Events</a>
+                            </li>
+                            <li>
+                                <a href="#">News</a>
+                            </li>
+                            <li>
+                                <a href="#">Join</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <Section>
+                <h1>Walk Events</h1>
+                <fieldset>
+                    <form action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
+                        <input type="hidden" name="sessionID" value="abcd1234-ee56-ff78-9090">
+                        <label>Walk name:</label>
+                        <input type="text">
+                        <label>Date of walk:</label>
+                        <input type="date">
+                        <label>Start time:</label>
+                        <input type="time">
+                        <label>End time:</label>
+                        <input type="time">
+                        <label>Meeting point:</label>
+                        <input type="text">
+                        <label>Distance in kilometres:</label>
+                        <input type="text">
+                        <label>Walk leader:</label>
+                        <input type="text">
+                        <label>Comments:</label>
+                        <textarea></textarea>
+                        <label>Status:</label>
+                        <select>
+                            <option>Proposed</option>
+                            <option>Approved</option>
+                            <option>Rejected</option>
+                        </select>
+                        <button>Add Walk</button>
+                        <button>Cancel</button>
+                    </form>
+                </fieldset>
+            </Section>
+            <footer class="footer-header">
+                <div class="container">
+                    <h2 class="fh-logo">
+                        <img src="ou_logo.jpg" width="170" height="95" alt="Open University Logo">
+                    </h2>
+                    <p>&copy;2022. All rights reserved</p>
+                </div>
+            </footer>
     </body>
 </html>
