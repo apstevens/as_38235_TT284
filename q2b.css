@@ -156,20 +156,17 @@ a.current {
     margin-bottom: 10px;
 }
 
-@media screen and (min-width: 768px) {
-    .form-row>input {
-        flex: 3;
-    }
-}
-
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 367px) {
     .form-row>input {
         flex: 4;
     }
-}
 
-@media screen and (min-width: 1200px) {
-    .form-row>input {
-        flex: 5;
+    .main-nav li {
+        display: block;
     }
+
+    .footer-header .container {
+        justify-content: center;
+    }
+
 }
